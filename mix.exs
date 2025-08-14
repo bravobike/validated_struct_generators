@@ -9,7 +9,6 @@ defmodule ValidatedStructGenerators.MixProject do
       app: :validated_struct_generators,
       version: "0.0.1",
       elixir: "~> 1.16",
-      start_permanent: Mix.env() == :prod,
       elixirc_paths: elixirc_paths(Mix.env()),
       deps: deps(),
 
@@ -38,7 +37,7 @@ defmodule ValidatedStructGenerators.MixProject do
   defp deps do
     [
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
-      {:stream_data, "~> 1.0", only: [:dev, :test]},
+      {:stream_data, "~> 1.0"},
       {:type_resolver, "~> 0.1.7"},
       {:validated_struct, "~> 0.0.1"}
     ]
