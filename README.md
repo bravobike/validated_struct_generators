@@ -1,5 +1,8 @@
 # ValidatedStructGenerators
 
+![Tests](https://github.com/bravobike/validated_struct_generators/actions/workflows/main.yaml/badge.svg)
+[![Hex version badge](https://img.shields.io/hexpm/v/validated_struct_generators.svg)](https://hex.pm/packages/validated_struct_generators)
+
 This module provides stream data generators for validated structs.
 
 For a validated struct a stream data generator can be created using `&ValidatedStruct.Generator.generator_for/2`.
@@ -22,7 +25,7 @@ end
 ValidatedStruct.Generator.generator_for(MyStruct)
 ```
 
-## Opts
+### Options for `generator_for/2`
 
 We can provide opts, to influence a generators behaviour:
 
