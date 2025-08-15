@@ -14,7 +14,7 @@ The package can be installed by adding `validated_struct_generators` to your lis
 ```elixir
 def deps do
   [
-    {:validated_struct_generators, "~> 0.0.1"}
+    {:validated_struct_generators, "~> 0.0.2"}
   ]
 end
 ```

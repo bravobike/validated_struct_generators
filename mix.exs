@@ -1,13 +1,13 @@
 defmodule ValidatedStructGenerators.MixProject do
   use Mix.Project
 
-  @version "0.0.1"
+  @version "0.0.2"
   @github_page "https://github.com/bravobike/validated_struct_generators"
 
   def project do
     [
       app: :validated_struct_generators,
-      version: "0.0.1",
+      version: "0.0.2",
       elixir: "~> 1.16",
       elixirc_paths: elixirc_paths(Mix.env()),
       deps: deps(),
